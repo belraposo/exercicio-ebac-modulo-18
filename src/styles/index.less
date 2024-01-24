@@ -1,0 +1,27 @@
+@colorLightPink: rgb(224, 124, 149);
+@colorPink: rgb(207, 98, 131);
+@colorWhite: rgb(255, 255, 255);
+
+body {
+    background-color: @colorLightPink;
+    color: @colorWhite;
+}
+
+main {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+
+    button {
+        margin-top: 250px;
+        background-color: @colorWhite;
+        color: @colorPink;
+        border: 3px solid @colorPink;
+        border-radius: 50px;
+        padding: 10px 20px;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+}
